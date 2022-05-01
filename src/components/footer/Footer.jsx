@@ -10,7 +10,7 @@ const Footer = () => {
       <h2 className='footer__logo'>IKKRIT</h2>
 
       <ul className='permalinks'>
-        <li><a href="#">Home</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="#about">A propos de moi</a></li>
         <li><a href="#experience">Experiences</a></li>
         <li><a href="#services">R&D</a></li>

@@ -23,6 +23,12 @@ const Nav = () => {
       <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}>
         <RiServiceLine />
       </a>
+      <a href="#symfonyProject" onClick={() => setActiveNav('#symfonyProject')} className={activeNav === '#symfonyProject' ? 'active' : ''}>
+        <RiServiceLine />
+      </a>
+      <a href="#resources" onClick={() => setActiveNav('#resources')} className={activeNav === '#resources' ? 'active' : ''}>
+        <BiMessageSquareDetail />
+      </a>
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <BiMessageSquareDetail />
       </a>

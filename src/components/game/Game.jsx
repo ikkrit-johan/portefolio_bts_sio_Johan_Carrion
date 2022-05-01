@@ -3,7 +3,7 @@ import './game.css';
 
 const Game = () => {
     return (
-        <section className='game_section'>
+        <section id="game">
             <h5>Projets</h5>
             <h2>Les Jeux</h2>
 

@@ -2,9 +2,9 @@ import React from 'react';
 
 const Stage = () => {
     return (
-        <div>
-            stage
-        </div>
+        <section id="stage">
+
+        </section>
     );
 };
 

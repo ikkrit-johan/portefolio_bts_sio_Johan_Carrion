@@ -2,9 +2,9 @@ import React from 'react';
 
 const Ppe = () => {
     return (
-        <div>
-            ppe
-        </div>
+        <section id="ppe">
+
+        </section>
     );
 };
 

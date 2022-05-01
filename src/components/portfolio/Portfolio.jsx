@@ -14,42 +14,42 @@ const data = [
     image: IMG1,
     title: 'Projet Symfony',
     github: 'https://github.com',
-    page: "/symfonyproject"
+    page: "#symfonyproject"
   },
   {
     id: 2,
     image: IMG2,
     title: 'Projet React',
     github: 'https://github.com',
-    page: "/reactproject"
+    page: "#reactproject"
   },
   {
     id: 3,
     image: IMG3,
     title: 'Projet PPE',
     github: 'https://github.com',
-    page: "/ppe"
+    page: "#ppe"
   },
   {
     id: 4,
     image: IMG4,
     title: 'Projet Stage',
     github: 'https://github.com',
-    page: "/stage"
+    page: "#stage"
   },
   {
     id: 5,
     image: IMG5,
     title: 'Projet Jeux',
     github: 'https://github.com',
-    page: "/game"
+    page: "#game"
   },
   {
     id: 6,
     image: IMG6,
     title: 'Projet Divers',
     github: 'https://github.com',
-    page: "/divers"
+    page: "#divers"
   },
 
 ]
