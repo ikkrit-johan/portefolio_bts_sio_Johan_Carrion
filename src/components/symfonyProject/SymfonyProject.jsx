@@ -1,6 +1,8 @@
 import React from 'react';
 import './symfonyProject.css';
-import IMG0 from '../../assets/portfolio1.jpg';
+import IMG01 from '../../assets/portfolio1.jpg';
+import IMG02 from '../../assets/capture_vaya/capture_market.png';
+import IMG03 from '../../assets/capture_vaya/capture_facebook.png';
 import IMG1 from '../../assets/capture_vaya/capture_about.png';
 import IMG2 from '../../assets/capture_vaya/capture_boutique.png';
 import IMG3 from '../../assets/capture_vaya/capture_header_1.png';
@@ -11,6 +13,23 @@ import IMG7 from '../../assets/capture_vaya/capture_header_5.png';
 import IMG8 from '../../assets/capture_vaya//capture_contact.png';
 import IMG9 from '../../assets/capture_vaya/capture_portefolio_1.png';
 import IMG10 from '../../assets/capture_vaya/capture_portefolio_2.png';
+import IMG11 from '../../assets/capture_vaya/capture_vsc.png';
+import IMG12 from '../../assets/capture_vaya/capture_symfony_1.png';
+
+const data = [
+    {id: 1, image: IMG1, title: 'about'},
+    {id: 2, image: IMG2, title: 'boutique'},
+    {id: 3, image: IMG3, title: 'header'},
+    {id: 4, image: IMG4, title: 'header'},
+    {id: 5, image: IMG5, title: 'header'},
+    {id: 6, image: IMG6, title: 'header'},
+    {id: 7, image: IMG7, title: 'header'},
+    {id: 8, image: IMG8, title: 'contact'},
+    {id: 9, image: IMG9, title: 'portefolio'},
+    {id: 10, image: IMG10, title: 'portefolio'},
+    {id: 11, image: IMG11, title: 'vsc'},
+    {id: 12, image: IMG12, title: 'symfony'}
+]
 
 
 const SymfonyProject = () => {
@@ -39,7 +58,23 @@ const SymfonyProject = () => {
                     </div>
 
                     <div className="symfony__intro--img">
-                        <img src={IMG0} alt="" />
+                        <img src={IMG01} alt="" />
+                    </div>
+
+                    <div className="symfony__gallery">
+                        {
+                            data.map(({id, image, title}) => {
+                                return (
+                                    
+                                <div key={id}className="symfony__grille">
+                                    <div className="grid-item">
+                                        <a href={image} target='_blank' rel="noreferrer"><img src={image} alt={title} /></a>
+                                    </div>
+                                </div>
+               
+                        )
+                        })
+                        }
                     </div>
 
                 </div>
