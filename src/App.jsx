@@ -7,6 +7,7 @@ import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
 import Resources from './components/resources/Resources';
 import SymfonyProject from './components/symfonyProject/SymfonyProject';
+import ReactProject from './components/reactProject/ReactProject';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 
@@ -21,6 +22,7 @@ const App = () => {
           <Services />
           <Portfolio />
           <SymfonyProject />
+          <ReactProject />
           <Resources />
           <Contact />
           <Footer /> 
