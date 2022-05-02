@@ -12,6 +12,7 @@ import IMG8 from '../../assets/capture_vaya//capture_contact.png';
 import IMG9 from '../../assets/capture_vaya/capture_portefolio_1.png';
 import IMG10 from '../../assets/capture_vaya/capture_portefolio_2.png';
 
+
 const SymfonyProject = () => {
     return (
         <section id="symfonyproject">
