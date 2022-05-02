@@ -1,12 +1,13 @@
-.section__symfony-project {
+.symfony__container {
     text-align: center;
+    width: 80%;
+    margin: auto;
 }
 
 .symfony__intro--present {
     width: 100%;
     text-align: center;
-    padding: 20px;
-    border: 1px solid var(--color-primary);
+    padding: 10px;
     border-radius: 5px;
     margin: 20px 0;
 }
@@ -16,10 +17,29 @@
     width: 360px;
     border-radius: 5px;
     border: 1px solid var(--color-primary);
+}
+
+.symfony__intro--present h4 {
+    width: 80%;
+    font-size: 1.1rem;
+    padding: 20px;
+    border: 1px solid var(--color-primary);
+    margin: 15px auto;
 
 }
 
-.symfony__grille {
+.symfony__intro--para {
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    background: var(--color-gray);
+    border-radius: 2rem;
+    line-height: 2rem;
+}
+
+
+
+.symfony__gallery {
     max-width: 1300px;
     width: 90%;
     height: auto;
@@ -30,10 +50,9 @@
     grid-gap: 10px;
 }
 
-.grid-item img{
+.symfony__grille--item {
     width: 300px;
-    height: 200x;
-    border: 1px solid var(--color-primary);
-    
+    height: 200px;
+    border: 1px solid var(--color-primary); 
 }
 

@@ -41,24 +41,28 @@ const SymfonyProject = () => {
                 <div className="symfony__intro">
 
                     <div className="symfony__intro--present">
-                        <h4>Pour mon premier stage en entreprise, j'ai eu comme mission de concevoir un site Web pour une cliente avec le framework Symfony.</h4>
-                        <p>La cliente est une illustratrice qui a besoin d'un site vitrine de ses oeuvres</p>
-                        <p>Un portefolio pour les dessins et les livres</p>
-                        <p>Une page de presentation</p>
-                        <p>Un market avec des liens sur divers sites marchands</p>
-                        <p>Un formulaire de contact</p>
-                        <p>Une interface simple pour la gestion des images</p>
-                        <p>Le site doit être classe et simple d'utlisation !</p>
+                        <h4>Pour mon premier stage, j'ai eu comme mission de concevoir un site Web avec le framework Symfony.</h4>
+                        <div className="symfony__intro--para">
+                            <p>La cliente est une illustratrice qui a besoin d'un site vitrine de ses oeuvres</p>
+                            <p>Un portefolio pour les dessins et les livres</p>
+                            <p>Une page de presentation</p>
+                            <p>Un market avec des liens sur divers sites marchands</p>
+                            <p>Un formulaire de contact</p>
+                            <p>Une interface simple pour la gestion des images</p>
+                            <p>Le site doit être classe et simple d'utlisation !</p>
+                        </div>
                     </div>
 
                     <div className="symfony__intro--techno">
-                        <h2>Technologie : </h2>
-                        <h3>Framework Symfony</h3>
-                        <p>Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.</p>
-                    </div>
+                        <div className="symfony__intro--techno left">
+                            <h2>Technologie : </h2>
+                            <h3>Framework Symfony</h3>
+                            <p>Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.</p>
+                        </div>
 
-                    <div className="symfony__intro--img">
-                        <img src={IMG01} alt="" />
+                        <div className="symfony__intro--img right">
+                            <img src={IMG01} alt="" />
+                        </div>
                     </div>
 
                     <div className="symfony__gallery">
@@ -67,7 +71,7 @@ const SymfonyProject = () => {
                                 return (
                                     
                                 <div key={id}className="symfony__grille">
-                                    <div className="grid-item">
+                                    <div className="symfony__grille--item">
                                         <a href={image} target='_blank' rel="noreferrer"><img src={image} alt={title} /></a>
                                     </div>
                                 </div>
