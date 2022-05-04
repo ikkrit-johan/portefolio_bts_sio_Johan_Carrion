@@ -54,6 +54,7 @@ const SymfonyProject = () => {
                             <p>Decouverte de TypeScript</p>
                             <p>Initiation au SASS</p>
                             <p>Divers tutorials en formation personnel...</p>
+                            <p>...Comme ce portefolio conçu avec React !</p>
                         </div>
                     </div>
 
@@ -72,8 +73,6 @@ const SymfonyProject = () => {
                         <h3>TypeScript</h3>
                         <p>TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Il s'agit d'un sur-ensemble syntaxique strict de JavaScript.</p>
 
-                        <h3>TypeScript</h3>
-                        <p>TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Il s'agit d'un sur-ensemble syntaxique strict de JavaScript.</p>
 
                         <h3>SASS</h3>
                         <p>Sass est un langage de script préprocesseur qui est compilé ou interprété en CSS. SassScript est le langage de script en lui-même. Sass est disponible en deux syntaxes.</p>
