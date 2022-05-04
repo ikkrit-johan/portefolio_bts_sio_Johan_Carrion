@@ -2,7 +2,7 @@ import React from 'react';
 import './reactProject.css';
 
 import IMG01 from '../../assets/portfolio2.png';
-import IMG02 from '../../assets/capture_react/react_back.png';
+import IMG02 from '../../assets/capture_react/react_back.jpeg';
 import IMG1 from '../../assets/capture_react/Capture_react_movie1.png';
 import IMG2 from '../../assets/capture_react/Capture_react_movie2.png';
 import IMG3 from '../../assets/capture_react/Capture_react_movie3.png';
