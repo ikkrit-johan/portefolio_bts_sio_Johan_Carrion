@@ -41,7 +41,7 @@ const SymfonyProject = () => {
 
                     <div className="symfony__intro--present">
                         <h4>Pour mon premier stage, j'ai eu comme mission de concevoir un site Web avec le framework Symfony.</h4>
-                        <div className="symfonyproject__vaya">
+                        <div className="symfony__vaya">
                             <img src={IMG02} alt="" />
                         </div>
                         <div className="symfony__intro--para">
@@ -55,7 +55,7 @@ const SymfonyProject = () => {
                         </div>
                     </div>
 
-                    <div className="symfonyproject__logo">
+                    <div className="symfony__logo">
                         <img src={IMG01} alt="" />
                     </div>
 
@@ -70,14 +70,18 @@ const SymfonyProject = () => {
                         <h3>Doctrine</h3>
                         <p>Doctrine est un ORM pour PHP. Il s'agit d'un logiciel libre sous licence GNU LGPL. Doctrine est l'ORM par défaut du framework Symfony.</p>
 
-                        <h3>Webpack Encore</h3>
-                        <p>Webpack est un outil logiciel open-source de type « module bundler » (littéralement, « groupeur de modules »), conçu pour faciliter le développement et la gestion de sites et d'applications web modernes.</p>
+                        <h3>Bitbucket</h3>
+                        <p>Bitbucket est un service web d'hébergement et de gestion de développement logiciel utilisant le logiciel de gestion de versions Git.</p>
+
+                        <h3>Trello</h3>
+                        <p>Trello est un outil de gestion de projet en ligne, lancé en septembre 2011 et inspiré par la méthode Kanban de Toyota. Il repose sur une organisation des projets en planches listant des cartes, chacune représentant des tâches.</p>
 
                         <h3>En savoir plus</h3>
-                        <a href="https://symfony.com/" target='_blank' className='btn btn-primary right' rel="noreferrer">Symfony</a>
-                        <a href="https://getcomposer.org/doc/" target='_blank' className='btn btn-primary right' rel="noreferrer">Composer</a>
-                        <a href="https://www.doctrine-project.org/" target='_blank' className='btn btn-primary right' rel="noreferrer">Doctrine</a>
-                        <a href="https://symfony.com/doc/current/frontend/encore/installation.html" target='_blank' className='btn btn-primary right' rel="noreferrer">Webpack</a>
+                        <a href="https://symfony.com/" target='_blank' className='btn btn-primary plus' rel="noreferrer">Symfony</a>
+                        <a href="https://getcomposer.org/doc/" target='_blank' className='btn btn-primary plus' rel="noreferrer">Composer</a>
+                        <a href="https://www.doctrine-project.org/" target='_blank' className='btn btn-primary plus' rel="noreferrer">Doctrine</a>
+                        <a href="https://bitbucket.org/product/" target='_blank' className='btn btn-primary plus' rel="noreferrer">Bitbucket</a>
+                        <a href="https://trello.com/home" target='_blank' className='btn btn-primary right plus' rel="noreferrer">Trello</a>
                     </div>
 
                     <div className="gallery__title">

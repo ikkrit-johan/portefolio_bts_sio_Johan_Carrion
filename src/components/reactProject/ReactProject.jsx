@@ -1,73 +1,109 @@
 import React from 'react';
+import './reactProject.css';
 
-const ReactProject = () => {
+import IMG01 from '../../assets/portfolio2.png';
+import IMG02 from '../../assets/capture_react/react_back.png';
+import IMG1 from '../../assets/capture_react/Capture_react_movie1.png';
+import IMG2 from '../../assets/capture_react/Capture_react_movie2.png';
+import IMG3 from '../../assets/capture_react/Capture_react_movie3.png';
+import IMG4 from '../../assets/capture_react/Capture_react_movie4.png';
+import IMG5 from '../../assets/capture_react/Capture_portefolio1.png';
+import IMG6 from '../../assets/capture_react/Capture_portefolio2.png';
+import IMG7 from '../../assets/capture_react/Capture_portefolio_test1.png';
+import IMG8 from '../../assets/capture_react/Capture_portefolio_test2.png';
+import IMG9 from '../../assets/capture_react/Capture_cours_js1.png';
+import IMG10 from '../../assets/capture_react/Capture_cours_js2.png';
+import IMG11 from '../../assets/capture_react/Capture_portefolio_master1.png';
+import IMG12 from '../../assets/capture_react/Capture_portefolio_master2.png';
+
+
+const data = [
+    {id: 1, image: IMG1, title: 'movie img'},
+    {id: 2, image: IMG2, title: 'movie img'},
+    {id: 3, image: IMG3, title: 'movie img'},
+    {id: 4, image: IMG4, title: 'movie img'},
+    {id: 5, image: IMG5, title: 'portefolio img'},
+    {id: 6, image: IMG6, title: 'portefolio img'},
+    {id: 7, image: IMG7, title: 'portefolio img'},
+    {id: 8, image: IMG8, title: 'portefolio img'},
+    {id: 9, image: IMG9, title: 'javascript img'},
+    {id: 10, image: IMG10, title: 'javascript img'},
+    {id: 11, image: IMG11, title: 'portefolio img'},
+    {id: 12, image: IMG12, title: 'portefolio img'}
+]
+
+
+const SymfonyProject = () => {
     return (
         <section id="reactproject">
             <h5>Projets</h5>
-            <h2>Symfony</h2>
-            <div className="symfony__container">
-                <div className="symfony__intro">
+            <h2>React</h2>
+            <div className="react__container">
+                <div className="react__intro">
 
-                    <div className="symfony__intro--present">
-                        <h4>Pour mon premier stage, j'ai eu comme mission de concevoir un site Web avec le framework Symfony.</h4>
-                        <div className="symfonyproject__vaya">
-                            <img src="" alt="" />
+                    <div className="react__intro--present">
+                        <h4>Pour mon deuxieme stage, j'ai eu comme mission de me familiariser avec le framework React.</h4>
+                        <div className="react__vaya">
+                            <img src={IMG02} alt="" />
                         </div>
-                        <div className="symfony__intro--para">
-                            <p>La cliente est une illustratrice qui a besoin d'un site vitrine de ses oeuvres</p>
-                            <p>Un portefolio pour les dessins et les livres</p>
-                            <p>Une page de presentation</p>
-                            <p>Un market avec des liens sur divers sites marchands</p>
-                            <p>Un formulaire de contact</p>
-                            <p>Une interface simple pour la gestion des images</p>
-                            <p>Le site doit être classe et simple d'utlisation !</p>
+                        <div className="react__intro--para">
+                            <p>Amelioration de mon niveau JavaScript</p>
+                            <p>Initiation avec la documentation React</p>
+                            <p>Divers missions de mon formateur en React</p>
+                            <p>Decouverte du JSX</p>
+                            <p>Decouverte de TypeScript</p>
+                            <p>Initiation au SASS</p>
+                            <p>Divers tutorials en formation personnel...</p>
                         </div>
                     </div>
 
-                    <div className="symfonyproject__logo">
-                        <img src="" alt="" />
+                    <div className="react__logo">
+                        <img src={IMG01} alt="" />
                     </div>
 
-                    <div className="symfony__intro--techno">
+                    <div className="react__intro--techno">
                         <h2>Technologie</h2>
-                        <h3>Framework Symfony</h3>
-                        <p>Symfony est un ensemble de composants PHP ainsi qu'un framework MVC libre écrit en PHP. Il fournit des fonctionnalités modulables et adaptables qui permettent de faciliter et d’accélérer le développement d'un site web.</p>
+                        <h3>Framework React</h3>
+                        <p>React est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page HTML à chaque changement d'état.</p>
                 
-                        <h3>Composer</h3>
-                        <p>Composer est un logiciel gestionnaire de dépendances libre écrit en PHP. Il permet à ses utilisateurs de déclarer et d'installer les bibliothèques dont le projet principal a besoin.</p>
+                        <h3>JSX et JS</h3>
+                        <p>JSX est une extension React de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l'aide d'une syntaxe familière à de nombreux développeurs. Il est similaire en apparence au HTML.</p>
 
-                        <h3>Doctrine</h3>
-                        <p>Doctrine est un ORM pour PHP. Il s'agit d'un logiciel libre sous licence GNU LGPL. Doctrine est l'ORM par défaut du framework Symfony.</p>
+                        <h3>TypeScript</h3>
+                        <p>TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Il s'agit d'un sur-ensemble syntaxique strict de JavaScript.</p>
 
-                        <h3>Webpack Encore</h3>
-                        <p>Webpack est un outil logiciel open-source de type « module bundler » (littéralement, « groupeur de modules »), conçu pour faciliter le développement et la gestion de sites et d'applications web modernes.</p>
+                        <h3>TypeScript</h3>
+                        <p>TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Il s'agit d'un sur-ensemble syntaxique strict de JavaScript.</p>
+
+                        <h3>SASS</h3>
+                        <p>Sass est un langage de script préprocesseur qui est compilé ou interprété en CSS. SassScript est le langage de script en lui-même. Sass est disponible en deux syntaxes.</p>
 
                         <h3>En savoir plus</h3>
-                        <a href="https://symfony.com/" target='_blank' className='btn btn-primary right' rel="noreferrer">Symfony</a>
-                        <a href="https://getcomposer.org/doc/" target='_blank' className='btn btn-primary right' rel="noreferrer">Composer</a>
-                        <a href="https://www.doctrine-project.org/" target='_blank' className='btn btn-primary right' rel="noreferrer">Doctrine</a>
-                        <a href="https://symfony.com/doc/current/frontend/encore/installation.html" target='_blank' className='btn btn-primary right' rel="noreferrer">Webpack</a>
+                        <a href="https://fr.reactjs.org/" target='_blank' className='btn btn-primary plus' rel="noreferrer">React</a>
+                        <a href="https://fr.reactjs.org/docs/introducing-jsx.html" target='_blank' className='btn btn-primary plus' rel="noreferrer">JSX</a>
+                        <a href="https://www.typescriptlang.org/" target='_blank' className='btn btn-primary plus' rel="noreferrer">TypeScript</a>
+                        <a href="https://sass-lang.com/" target='_blank' className='btn btn-primary plus' rel="noreferrer">SASS</a>
                     </div>
 
                     <div className="gallery__title">
-                        <h2>Images du projet</h2>
+                        <h2>Images des projets</h2>
                     </div>
 
-                    {/* <div className="symfony__gallery">
+                    <div className="react__gallery">
                         {
                             data.map(({id, image, title}) => {
                                 return (
                                     
-                                <div key={id}className="symfony__grille">
-                                    <div className="symfony__grille--item">
+                                <div key={id}className="react__grille">
+                                    <div className="react__grille--item">
                                         <a href={image} target='_blank' rel="noreferrer"><img src={image} alt={title} /></a>
                                     </div>
                                 </div>
                
-                        )
-                        })
+                                )
+                            })
                         }
-                    </div> */}
+                    </div>
 
                 </div>
             </div>
@@ -75,4 +111,4 @@ const ReactProject = () => {
     );
 };
 
-export default ReactProject;
+export default SymfonyProject;
