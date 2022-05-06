@@ -82,6 +82,7 @@ const SymfonyProject = () => {
                         <a href="https://fr.reactjs.org/docs/introducing-jsx.html" target='_blank' className='btn btn-primary plus' rel="noreferrer">JSX</a>
                         <a href="https://www.typescriptlang.org/" target='_blank' className='btn btn-primary plus' rel="noreferrer">TypeScript</a>
                         <a href="https://sass-lang.com/" target='_blank' className='btn btn-primary plus' rel="noreferrer">SASS</a>
+                        <a href="#portfolio" className='btn right plus'>Retour portefolio</a>
                     </div>
 
                     <div className="gallery__title">

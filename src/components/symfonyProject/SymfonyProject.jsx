@@ -82,6 +82,7 @@ const SymfonyProject = () => {
                         <a href="https://www.doctrine-project.org/" target='_blank' className='btn btn-primary plus' rel="noreferrer">Doctrine</a>
                         <a href="https://bitbucket.org/product/" target='_blank' className='btn btn-primary plus' rel="noreferrer">Bitbucket</a>
                         <a href="https://trello.com/home" target='_blank' className='btn btn-primary right plus' rel="noreferrer">Trello</a>
+                        <a href="#portfolio" className='btn right plus'>Retour portefolio</a>
                     </div>
 
                     <div className="gallery__title">
