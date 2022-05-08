@@ -10,6 +10,7 @@ import SymfonyProject from './components/symfonyProject/SymfonyProject';
 import ReactProject from './components/reactProject/ReactProject';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import Ppe from './components/ppe/Ppe';
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Portfolio />
           <SymfonyProject />
           <ReactProject />
+          <Ppe />
           <Resources />
           <Contact />
           <Footer /> 
