@@ -33,7 +33,7 @@ const data = [
   {
     id: 4,
     image: IMG4,
-    title: 'Projet Stage',
+    title: 'Stages',
     github: 'https://github.com',
     page: "#stage"
   },

@@ -2,34 +2,26 @@ import React from 'react';
 import './ppe.css';
 
 import IMG01 from '../../assets/portfolio3.jpg';
-import IMG02 from '../../assets/capture_react/react_back.jpeg';
-import IMG1 from '../../assets/capture_react/Capture_react_movie1.png';
-import IMG2 from '../../assets/capture_react/Capture_react_movie2.png';
-import IMG3 from '../../assets/capture_react/Capture_react_movie3.png';
-import IMG4 from '../../assets/capture_react/Capture_react_movie4.png';
-import IMG5 from '../../assets/capture_react/Capture_portefolio1.png';
-import IMG6 from '../../assets/capture_react/Capture_portefolio2.png';
-import IMG7 from '../../assets/capture_react/Capture_portefolio_test1.png';
-import IMG8 from '../../assets/capture_react/Capture_portefolio_test2.png';
-import IMG9 from '../../assets/capture_react/Capture_cours_js1.png';
-import IMG10 from '../../assets/capture_react/Capture_cours_js2.png';
-import IMG11 from '../../assets/capture_react/Capture_portefolio_master1.png';
-import IMG12 from '../../assets/capture_react/Capture_portefolio_master2.png';
+import IMG02 from '../../assets/capture_ppe/Pouzy.jpg';
+import IMG1 from '../../assets/capture_ppe/Capture_ppe1.png';
+import IMG2 from '../../assets/capture_ppe/Capture_ppe2.png';
+import IMG3 from '../../assets/capture_ppe/Capture_ppe3.png';
+import IMG4 from '../../assets/capture_ppe/Capture_ppe4.png';
+import IMG5 from '../../assets/capture_ppe/Capture_ppe5.png';
+import IMG6 from '../../assets/capture_ppe/Capture_ppe_java1.png';
+import IMG7 from '../../assets/capture_ppe/Capture_ppe_java2.png';
+import IMG8 from '../../assets/capture_ppe/Capture_ppe_java4.png';
 
 
 const data = [
-    {id: 1, image: IMG1, title: 'movie img'},
-    {id: 2, image: IMG2, title: 'movie img'},
-    {id: 3, image: IMG3, title: 'movie img'},
-    {id: 4, image: IMG4, title: 'movie img'},
-    {id: 5, image: IMG5, title: 'portefolio img'},
-    {id: 6, image: IMG6, title: 'portefolio img'},
-    {id: 7, image: IMG7, title: 'portefolio img'},
-    {id: 8, image: IMG8, title: 'portefolio img'},
-    {id: 9, image: IMG9, title: 'javascript img'},
-    {id: 10, image: IMG10, title: 'javascript img'},
-    {id: 11, image: IMG11, title: 'portefolio img'},
-    {id: 12, image: IMG12, title: 'portefolio img'}
+    {id: 1, image: IMG1, title: 'Ppe img'},
+    {id: 2, image: IMG2, title: 'Ppe img'},
+    {id: 3, image: IMG3, title: 'Ppe img'},
+    {id: 4, image: IMG4, title: 'Ppe img'},
+    {id: 5, image: IMG5, title: 'Ppe img'},
+    {id: 6, image: IMG6, title: 'Ppe img'},
+    {id: 7, image: IMG7, title: 'Ppe img'},
+    {id: 8, image: IMG8, title: 'Ppe img'}
 ]
 
 
@@ -42,14 +34,19 @@ const Ppe = () => {
                 <div className="react__intro">
 
                     <div className="ppe__intro--present">
-                        <h4>Projet PPE Team React, application legere et lourde de gestion d'une bibliotheque</h4>
-                        <div className="react__vaya">
+                        <h4>Projet PPE Team React, application legere et lourde de gestion d'une bibliotheque pour la commune de Pouzy-Mesangy</h4>
+                        <div className="ppe__vaya">
                             <img src={IMG02} alt="" />
                         </div>
                         <div className="ppe__intro--para">
                             <p>Projet de groupe</p>
                             <p>Mise en condition réel</p>
                             <p>Demande client</p>
+                            <p>Implication personnel</p>
+                            <p>@Alexy</p>
+                            <p>@Solene</p>
+                            <p>@Ange</p>
+                            <p>@Johan</p>
                         </div>
                     </div>
 
@@ -60,33 +57,30 @@ const Ppe = () => {
                     <div className="ppe__intro--techno">
                         <h2>Technologie</h2>
                         <h3>JAVA (Application lourde)</h3>
-                        <p>React est une bibliothèque JavaScript libre développée par Facebook depuis 2013. Le but principal de cette bibliothèque est de faciliter la création d'application web monopage, via la création de composants dépendant d'un état et générant une page HTML à chaque changement d'état.</p>
+                        <p>Java est un langage de programmation orienté objet créé par James Gosling et Patrick Naughton, employés de Sun Microsystems, avec le soutien de Bill Joy, présenté officiellement le 23 mai 1995 au SunWorld. La société Sun a été ensuite rachetée en 2009 par la société Oracle qui détient et maintient désormais Java.</p>
                 
                         <h3>PHP</h3>
-                        <p>JSX est une extension React de la syntaxe du langage JavaScript qui permet de structurer le rendu des composants à l'aide d'une syntaxe familière à de nombreux développeurs. Il est similaire en apparence au HTML.</p>
+                        <p>PHP: Hypertext Preprocessor, plus connu sous son sigle PHP, est un langage de programmation libre, principalement utilisé pour produire des pages Web dynamiques via un serveur HTTP, mais pouvant également fonctionner comme n'importe quel langage interprété de façon locale. PHP est un langage impératif orienté objet.</p>
 
                         <h3>SQL</h3>
-                        <p>TypeScript est un langage de programmation libre et open source développé par Microsoft qui a pour but d'améliorer et de sécuriser la production de code JavaScript. Il s'agit d'un sur-ensemble syntaxique strict de JavaScript.</p>
-
-                        <h3>JS</h3>
-                        <p>Sass est un langage de script préprocesseur qui est compilé ou interprété en CSS. SassScript est le langage de script en lui-même. Sass est disponible en deux syntaxes.</p>
+                        <p>SQL est un langage informatique normalisé servant à exploiter des bases de données relationnelles. La partie langage de manipulation des données de SQL permet de rechercher, d'ajouter, de modifier ou de supprimer des données dans les bases de données relationnelles. Outre le langage de manipulation des données.</p>
 
                         <h3>Bootstrap</h3>
-                        <p>Sass est un langage de script préprocesseur qui est compilé ou interprété en CSS. SassScript est le langage de script en lui-même. Sass est disponible en deux syntaxes.</p>
+                        <p>Bootstrap est une collection d'outils utiles à la création du design de sites et d'applications web. C'est un ensemble qui contient des codes HTML et CSS, des formulaires, boutons, outils de navigation et autres éléments interactifs, ainsi que des extensions JavaScript en option.</p>
 
-                        <h3>HTML CSS</h3>
-                        <p>Sass est un langage de script préprocesseur qui est compilé ou interprété en CSS. SassScript est le langage de script en lui-même. Sass est disponible en deux syntaxes.</p>
+                        <h3>JS HTML CSS</h3>
+                        <p>HTML, CSS et JavaScript sont les noms de différents types de code fréquemment rencontrés dans le développement web. L'HTML permet l'affichage des informations de la page sur le navigateur, le CSS met en page son contenu et JavaScript intègre les animations et spécifie les interactions entre les éléments.</p>
 
                         <h3>En savoir plus</h3>
-                        <a href="https://fr.reactjs.org/" target='_blank' className='btn btn-primary plus' rel="noreferrer">React</a>
-                        <a href="https://fr.reactjs.org/docs/introducing-jsx.html" target='_blank' className='btn btn-primary plus' rel="noreferrer">JSX</a>
-                        <a href="https://www.typescriptlang.org/" target='_blank' className='btn btn-primary plus' rel="noreferrer">TypeScript</a>
-                        <a href="https://sass-lang.com/" target='_blank' className='btn btn-primary plus' rel="noreferrer">SASS</a>
+                        <a href="https://www.java.com/fr/" target='_blank' className='btn btn-primary plus' rel="noreferrer">JAVA</a>
+                        <a href="https://www.php.net/" target='_blank' className='btn btn-primary plus' rel="noreferrer">PHP</a>
+                        <a href="https://sql.sh/" target='_blank' className='btn btn-primary plus' rel="noreferrer">SQL</a>
+                        <a href="https://getbootstrap.com/" target='_blank' className='btn btn-primary plus' rel="noreferrer">Bootstrap</a>
                         <a href="#portfolio" className='btn right plus'>Retour portefolio</a>
                     </div>
 
                     <div className="gallery__title">
-                        <h2>Images des projets</h2>
+                        <h2>Images du projet</h2>
                     </div>
 
                     <div className="ppe__gallery">

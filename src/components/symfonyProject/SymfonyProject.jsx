@@ -7,13 +7,9 @@ import IMG2 from '../../assets/capture_vaya/capture_boutique.png';
 import IMG3 from '../../assets/capture_vaya/capture_header_1.png';
 import IMG4 from '../../assets/capture_vaya/capture_header_2.png';
 import IMG5 from '../../assets/capture_vaya/capture_header_3.png';
-import IMG6 from '../../assets/capture_vaya/capture_header_4.png';
 import IMG7 from '../../assets/capture_vaya/capture_header_5.png';
 import IMG8 from '../../assets/capture_vaya//capture_contact.png';
 import IMG9 from '../../assets/capture_vaya/capture_portefolio_1.png';
-import IMG10 from '../../assets/capture_vaya/capture_portefolio_2.png';
-import IMG11 from '../../assets/capture_vaya/capture_vsc.png';
-import IMG12 from '../../assets/capture_vaya/capture_symfony_1.png';
 
 const data = [
     {id: 1, image: IMG1, title: 'about'},
@@ -21,13 +17,9 @@ const data = [
     {id: 3, image: IMG3, title: 'header'},
     {id: 4, image: IMG4, title: 'header'},
     {id: 5, image: IMG5, title: 'header'},
-    {id: 6, image: IMG6, title: 'header'},
     {id: 7, image: IMG7, title: 'header'},
     {id: 8, image: IMG8, title: 'contact'},
     {id: 9, image: IMG9, title: 'portefolio'},
-    {id: 10, image: IMG10, title: 'portefolio'},
-    {id: 11, image: IMG11, title: 'vsc'},
-    {id: 12, image: IMG12, title: 'symfony'}
 ]
 
 

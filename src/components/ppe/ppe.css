@@ -1,24 +1,24 @@
-.react__container {
+.ppe__container {
     max-width: 1300px;
     text-align: center;
     width: 80%;
     margin: auto;
 }
 
-.react__logo img{
+.ppe__logo img{
     height: 400px;
     width: auto;
     border-radius: 5px;
     margin: auto;
 }
 
-.react__vaya img{
-    width: 95%;
+.ppe__vaya img{
+    width: 70%;
     border-radius: 5px;
     margin: auto;
 }
 
-.react__intro--present {
+.ppe__intro--present {
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -26,7 +26,7 @@
     margin: 20px 0;
 }
 
-.react__intro--present h4 {
+.ppe__intro--present h4 {
     width: 96%;
     font-size: 1.1rem;
     padding: 20px;
@@ -36,7 +36,7 @@
 
 }
 
-.react__intro--para {
+.ppe__intro--para {
     width: 95%;
     margin: 40px auto 20px;
     padding: 20px;
@@ -46,12 +46,12 @@
     line-height: 2rem;
 }
 
-.react__intro--para:hover {
+.ppe__intro--para:hover {
     border: 1px solid var(--color-primary);
     background: var(--color-black);
 }
 
-.react__intro--techno {
+.ppe__intro--techno {
     width: 96%;
     margin: auto;
     border: 1px solid transparent;
@@ -61,22 +61,22 @@
     background: var(--color-gray);
 }
 
-.react__intro--techno:hover {
+.ppe__intro--techno:hover {
     border: 1px solid var(--color-primary);
     background: var(--color-black);
 }
 
-.react__intro--techno h2 {
+.ppe__intro--techno h2 {
     text-align: center;
     font-size: 2.5rem;
 }
 
-.react__intro--techno h3 {
+.ppe__intro--techno h3 {
     font-size: 1.4rem;
     margin: 15px 0;
 }
 
-.react__intro--techno p {
+.ppe__intro--techno p {
     margin: 10px;
 }
 
@@ -84,7 +84,7 @@
     margin-top: 50px;
 }
 
-.react__gallery {
+.ppe__gallery {
     max-width: 1300px;
     height: auto;
     margin: 50px auto;
@@ -94,7 +94,7 @@
     grid-gap: 10px;
 }
 
-.react__grille--item {
+.ppe__grille--item {
     width: 300px;
     height: 200px;
     border: 1px solid var(--color-primary); 

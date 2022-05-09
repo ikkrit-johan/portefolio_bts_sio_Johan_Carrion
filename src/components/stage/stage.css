@@ -1,0 +1,17 @@
+.stage__container {
+    text-align: center;
+    position: relative;
+}
+
+.stage__logo img{
+    height: 400px;
+    width: auto;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.stage__vaya img{
+    width: 40%;
+    border-radius: 5px;
+    margin: auto;
+}

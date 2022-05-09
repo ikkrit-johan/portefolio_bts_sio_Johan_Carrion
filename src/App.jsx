@@ -11,6 +11,7 @@ import ReactProject from './components/reactProject/ReactProject';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import Ppe from './components/ppe/Ppe';
+import Stage from './components/stage/Stage';
 
 
 const App = () => {
@@ -25,6 +26,7 @@ const App = () => {
           <SymfonyProject />
           <ReactProject />
           <Ppe />
+          <Stage />
           <Resources />
           <Contact />
           <Footer /> 
