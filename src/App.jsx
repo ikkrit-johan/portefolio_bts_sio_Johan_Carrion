@@ -5,13 +5,17 @@ import About from './components/about/About';
 import Experience from './components/experience/Experience';
 import Services from './components/services/Services';
 import Portfolio from './components/portfolio/Portfolio';
+import Stage from './components/stage/Stage';
+import Game from './components/game/Game';
 import Resources from './components/resources/Resources';
 import SymfonyProject from './components/symfonyProject/SymfonyProject';
 import ReactProject from './components/reactProject/ReactProject';
+import Ppe from './components/ppe/Ppe';
+import Divers from './components/divers/Divers';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
-import Ppe from './components/ppe/Ppe';
-import Stage from './components/stage/Stage';
+
+
 
 
 const App = () => {
@@ -23,10 +27,12 @@ const App = () => {
           <Experience />
           <Services />
           <Portfolio />
+          <Stage />
+          <Game />
           <SymfonyProject />
           <ReactProject />
           <Ppe />
-          <Stage />
+          <Divers />
           <Resources />
           <Contact />
           <Footer /> 
