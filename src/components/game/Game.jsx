@@ -32,7 +32,7 @@ const Game = () => {
                 <div className="symfony__intro">
 
                     <div className="game__intro--present">
-                        <h4>Pour mon premier stage, j'ai eu comme mission de concevoir un site Web avec le framework Symfony.</h4>
+                        <h4>Mes divers projets de petit jeux.</h4>
                         <div className="game__vaya">
                             <img src={IMG02} alt="" />
                         </div>
